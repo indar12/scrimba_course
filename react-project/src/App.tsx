@@ -1,9 +1,9 @@
-import './App.css'
+import ReactFacts from './components/ReactFacts'
 
 function App() {
   return (
     <>
-      Heelo
+      <ReactFacts/>
     </>
   )
 }
