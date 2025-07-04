@@ -1,9 +1,9 @@
-import './App.css'
+import Transition from './components/Transition'
 
 function App() {
   return (
     <>
-      Heelo
+      <Transition/>
     </>
   )
 }
