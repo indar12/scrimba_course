@@ -1,9 +1,11 @@
-import './App.css'
+import InputField from "./components/InputField"
 
 function App() {
   return (
     <>
-      Heelo
+      <InputField label={'First Name'}/>
+      <InputField label={'Last Name'}/>
+      <InputField label={'Email'} type="email" />
     </>
   )
 }
