@@ -1,9 +1,11 @@
-import './App.css'
+import useWindowWidth from './components/useWindowWidth';
+
 
 function App() {
+  const width = useWindowWidth();
   return (
     <>
-      Heelo
+      <h2>Width: {width}</h2>
     </>
   )
 }
